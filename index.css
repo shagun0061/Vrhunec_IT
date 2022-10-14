@@ -1,0 +1,202 @@
+.main {
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.back {
+  background-image: url("./Style-Accessories-for-Men.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+
+  height: 600px;
+  width: 70%;
+}
+
+.navbar {
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+}
+.navbar > div:first-child {
+  width: 30%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #c1a034;
+  text-align: center;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  color: white;
+}
+.wel {
+  margin: auto;
+  color: white;
+  text-align: center;
+  margin-top: 14%;
+}
+.wel2 {
+  margin-top: -15px;
+
+  font-size: 55px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.but {
+  background-color: #fed136;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: none;
+  /* margin-top: -80px; */
+
+  color: white;
+}
+.butdiv {
+  margin: auto;
+  margin-top: -25px;
+  width: 20%;
+  height: 8%;
+}
+.sermain {
+  margin: auto;
+  height: 400px;
+  width: 70%;
+  padding: 30px 0px;
+}
+.services {
+  margin: auto;
+  width: 350px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 3px;
+  margin-top: 50px;
+}
+.f {
+  font-size: 15px;
+  color: gray;
+  line-height: -10px;
+  margin-top: -2px;
+}
+
+.box {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 260px 260px 260px;
+  justify-content: center;
+  padding: 35px;
+  gap: 10px;
+  line-height: 12px;
+}
+.boxin {
+  text-align: center;
+  /* width: ; */
+}
+
+.last {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid black;
+  margin: auto;
+  height: 500px;
+  width: 70%;
+}
+
+.services2 {
+  margin: auto;
+  width: 350px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 3px;
+  margin-top: 50px;
+  color: white;
+}
+.f2 {
+  font-size: 15px;
+  color: gray;
+  line-height: -10px;
+  margin-top: 0px;
+}
+
+.in {
+  margin: auto;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+.in > div:first-child {
+  width: 50%;
+}
+.in > div:last-child {
+  width: 50%;
+}
+input {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+#las {
+  width: 100%;
+  padding-bottom: 130px;
+}
+
+.butdiv2 {
+  margin: auto;
+  margin-top: 15px;
+  width: 20%;
+  height: 10%;
+}
+.but:hover {
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fed136;
+  background-color: white;
+}
+
+.footer {
+  margin: auto;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.o {
+  width: 45%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.o > div:first-child {
+}
+.o > div:last-child {
+  display: flex;
+  gap: 10px;
+}
+.o > div:last-child > div {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
